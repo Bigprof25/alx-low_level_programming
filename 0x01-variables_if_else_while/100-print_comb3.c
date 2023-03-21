@@ -18,7 +18,7 @@ if (fd != ld)
 putchar(fd);
 putchar(ld);
 if (fd == '8' && ld == '9')
-continue
+continue;
 putchar(',');
 putchar(' ');
 }
