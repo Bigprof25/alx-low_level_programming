@@ -21,7 +21,7 @@ if ((fd != md) != ld)
 putchar(fd);
 putchar(md);
 putchar(ld);
-if (fd == '7' && md == '8' && ld == '9')
+if (fd == '7' && md == '8')
 continue;
 putchar(',');
 putchar(' ');
