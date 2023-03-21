@@ -16,11 +16,7 @@ for (md = fd + 1; md < '9'; md++)
 {
 for (ld = md + 1; ld <= 9; ld++)
 {
-if (fd != md)
-{
-if (fd != ld)
-{
-if (md != ld)
+if ((fd != md) != ld)
 {
 putchar(fd);
 putchar(md);
