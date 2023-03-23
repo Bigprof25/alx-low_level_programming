@@ -6,9 +6,9 @@
  */
 int print_sign(int n)
 {
-char p = '+';
-char z = '0';
-char m = '-';
+char p = +;
+char z = 0;
+char m = -;
 if (n > 0)
 {
 return (1);
